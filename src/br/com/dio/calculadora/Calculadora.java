@@ -17,7 +17,7 @@ public class Calculadora {
 		int soma = soma(a,b);
 		int subtracao = subtracao(a,b);
 		int multiplicacao = multiplicacao(a,b);
-		int divisao = divisao(a,b);
+		float divisao = divisao(a,b);
 		
 		System.out.println(soma);
 		System.out.println(subtracao);
@@ -27,7 +27,7 @@ public class Calculadora {
 		
 	}
 
-	private static int divisao(int a, int b) {
+	private static float divisao(float a, float b) {
 		// TODO Auto-generated method stub
 		return a / b;
 	}
@@ -47,5 +47,5 @@ public class Calculadora {
 		return a + b;
 	}
 
-	
+	// atualização
 }
